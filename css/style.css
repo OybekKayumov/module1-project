@@ -75,7 +75,8 @@ body {
   background-position: center;
 }
 
-.head-top, .head-main {
+.head-top,
+.head-main {
   color: #ec5242;
 }
 
