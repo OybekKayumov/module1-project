@@ -4,12 +4,189 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/df4dde8176.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ubuntu:wght@700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css">
     <title>SUMMIT 2022</title>
 </head>
 <body>
+    <div class="prefer-menu hidden">
+        <!-- <i class="bi bi-x-lg exit-btn"></i> -->
+        <i class="far fa-times-circle fa-3x exit-btn"></i>
+        <ul class="menu-prefer">
+            <li><a class="link menu-open-home" href="#home">HOME1</a></li>
+            <li><a class="link" href="#program">Program1</a></li>
+            <li><a class="link" href="#join">About1</a></li>
+            <li><a class="link" href="#sponsor">Sponsor1</a></li>
+    
+        </ul>
+    </div>
+    
+    <main class="main" id="home">
+    
+        <nav class="nav">
+            <ul class="nav-top-list">
+                <li><a href="https://www.facebook.com/oybek.kayumov.39/" target="_blank" rel="noopener noreferrer">
+                        <!-- <i class="bi bi-facebook"></i> -->
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a></li>
+                <li><a href="https://twitter.com/KayumovOybek" target="_blank" rel="noopener noreferrer">
+                        <!-- <i class="bi bi-twitter"></i> -->
+                        <i class="fab fa-twitter fa-lg"></i>
+    
+                    </a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <div class="nav-bottom">
+                <!-- <a href="#about"><img class="logo-nav" src="./image/logo.png" alt="logo">MY LOGO</a> -->
+    
+                <a href="#about"><i class="far fa-chart-bar fa-6x"></i>CC Global <br> Summit 2015</a>
+    
+                <ul class="nav-bottom-list">
+                    <li><a class="link red-text" href="#">About</a></li>
+                    <li><a class="link" href="#">Program</a></li>
+                    <li><a class="link" href="#">Join</a></li>
+                    <li><a class="link" href="#">Sponsor</a></li>
+                    <li><a class="link" href="#">News</a></li>
+                    <li><a class="link red-box" href="#home">CC Campaign</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <header class="head">
+            <ion-icon class="hamburger open" name="menu-outline"> </ion-icon>
+            <h1 class="head-top">"Hello! Sharing world"</h1>
+            <h2 class="head-main">CREATIVE COMMONS GLOBAL SUMMIT 2015</h2>
+            <p class="head-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab voluptas, dolorum quae maiores iste
+                unde esse quia cumque mollitia. Earum officia expedita veritatis enim
+            </p>
+            <h2 class="head-data">2022.01.20(THU) ~ 21(FRI)</h2>
+            <h2 class="head-place">@National Museum of Korea, Art Center Nabi and more</h2>
+    
+        </header>
+    
+        <section class="program">
+            <h2 class="program-title">Main Program</h2>
+            <div class="red-line"></div>
+            <div class="cards">
+                <div class="card">
+                    <div class="lecture">
+                        <img class="lecture-icon" src="./image/prog/lecture.png" alt="lecture">
+                        <!-- <i class="fas fa-chalkboard-teacher fa-6"></i> -->
+                        <h2>Lecture</h2>
+                    </div>
+                    <p class="card-p">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sint praesentium iste possimus
+                        numquam. Aperiam!
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <div class="lecture">
+                        <img class="lecture-icon" src="./image/prog/exhb.png" alt="exibition">
+                        <h2>Exibition</h2>
+                    </div>
+                    <p class="card-p">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sint praesentium iste possimus
+                        numquam. Aperiam!
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <div class="lecture">
+                        <img class="lecture-icon" src="./image/prog/forum.png" alt="forum">
+                        <h2>Forum</h2>
+                    </div>
+                    <p class="card-p">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sint praesentium iste possimus
+                        numquam. Aperiam!
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <div class="lecture">
+                        <img class="lecture-icon" src="./image/prog/train.png" alt="workshop">
+                        <h2>Workshop</h2>
+                    </div>
+                    <p class="card-p">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sint praesentium iste possimus
+                        numquam. Aperiam!
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <div class="lecture">
+                        <img class="lecture-icon" src="./image/prog/share.png" alt="share">
+                        <h2>Share</h2>
+                    </div>
+                    <p class="card-p">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sint praesentium iste possimus
+                        numquam. Aperiam!
+                    </p>
+                </div>
+    
+    
+            </div>
+            <h2 class="card-btn-desk">SEE THE WHOLE PROGRAM</h2>
+            <h2 class="card-btn-mob">Join CC Global Summit 2022</h2>
+    
+        </section>
+    
+        <section class="speakers">
+            <h2 class="speakers-title">Featured Speakers</h2>
+            <div class="red-line"></div>
+            <div class="speakers-card"></div>
+    
+            <div class="btn-more">
+                <button class="more" type="button">MORE <i class="bi bi-chevron-down down-arrow"></i>
+                </button>
+            </div>
+    
+            <div class="btn-less">
+                <button class="less" type="button">LESS <i class="bi bi-chevron-up down-arrow"></i>
+                </button>
+            </div>
+        </section>
+    
+        <section class="partner">
+            <h2 class="partner-title">Partner</h2>
+            <div class="line"></div>
+    
+            <ul class="partner-list">
+                <li>
+                    <img src="sponsor-link" alt="sponsor-name">
+                </li>
+                <li>
+                    <img src="sponsor-link" alt="sponsor-name">
+                </li>
+                <li>
+                    <img src="sponsor-link" alt="sponsor-name">
+                </li>
+                <li>
+                    <img src="sponsor-link" alt="sponsor-name">
+                </li>
+                <li>
+                    <img src="sponsor-link" alt="sponsor-name">
+                </li>
+                <li>
+                    <img src="sponsor-link" alt="sponsor-name">
+                </li>
+            </ul>
+    
+        </section>
+    
+        <div class="ending">
+            <img class="logo" src="./image/logo.png" alt="logo">
+            <h2>2022 &copy; All Rights Reserved</h2>
+        </div>
+    
+    </main>
+
+    <!-- about -->
     
     <script src="./scripts/script.js"></script>
 </body>
