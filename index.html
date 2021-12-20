@@ -18,9 +18,8 @@
         <ul class="menu-prefer">
             <li><a class="link menu-open-home" href="#home">HOME1</a></li>
             <li><a class="link" href="#program">Program1</a></li>
-            <li><a class="link" href="#join">About1</a></li>
-            <li><a class="link" href="#sponsor">Sponsor1</a></li>
-    
+            <li><a class="link menu-open-about" href="#about">About1</a></li>
+            <li><a class="link" href="#sponsor">Sponsor1</a></li>    
         </ul>
     </div>
     
@@ -42,23 +41,22 @@
                 <li><a href="#">Logout</a></li>
             </ul>
             <div class="nav-bottom">
-                <!-- <a href="#about"><img class="logo-nav" src="./image/logo.png" alt="logo">MY LOGO</a> -->
+                <!-- <a class="logo" href="#about"><img class="logo-nav" src="./image/logo.png" alt="logo">MY LOGO</a> -->
     
-                <a href="#about"><i class="far fa-chart-bar fa-4x"></i>CC Global <br> Summit 2015</a>
+                <a class="logo" href="#about"><i class="far fa-chart-bar fa-4x"></i>CC Global <br> Summit 2015</a>
     
                 <ul class="nav-bottom-list">
-                    <li><a class="link red-text" href="#">About</a></li>
+                    <li><a class="link about-link" href="#">About</a></li>
                     <li><a class="link" href="#">Program</a></li>
-                    <li><a class="link" href="#">Join</a></li>
                     <li><a class="link" href="#">Sponsor</a></li>
-                    <li><a class="link" href="#">News</a></li>
-                    <li><a class="link red-box" href="#home">CC Campaign</a></li>
+                    <li class="nav-list-button"><a class="link" href="#home">CC Campaign</a></li>
                 </ul>
             </div>
         </nav>
     
         <header class="head">
-            <ion-icon class="hamburger open" name="menu-outline"> </ion-icon>
+            <!-- <ion-icon class="hamburger open" name="menu-outline"> </ion-icon> -->
+            <i class="fas fa-bars fa-3x hamburger open"></i>
             <h1 class="head-top">"Hello! Sharing world"</h1>
             <h2 class="head-main">CREATIVE COMMONS GLOBAL SUMMIT 2015</h2>
             <p class="head-p">
@@ -180,7 +178,7 @@
     
         </section>
     
-        <div class="ending">
+        <div class="end">
             <img class="logo" src="./image/logo.png" alt="logo">
             <h2>2022 &copy; All Rights Reserved</h2>
         </div>
@@ -189,7 +187,7 @@
 
     <!-- about -->
 
-    <section class="about hidden">
+    <section id="about" class="about hidden">
         <h2 class="hidden">about ok</h2>
         <nav class="nav">
             <ul class="nav-top-list">
@@ -224,18 +222,19 @@
         </nav>
 
         <header class="head-about">
-            <ion-icon class="hamburger-about open" name="menu-outline"> </ion-icon>
-            <h3 class="about-heading-top">"Hello! Sharing world"</h3>
-            <h3 class="about-heading-title">CREATIVE COMMONS GLOBAL SUMMIT 2015</h3>
+            <!-- <ion-icon class="hamburger-about open" name="menu-outline"> </ion-icon> -->
+            <i class="fas fa-bars fa-3x hamburger-about open"></i>
+            <h3 class="about-top">"Hello! Sharing world"</h3>
+            <h3 class="about-title">CREATIVE COMMONS GLOBAL SUMMIT 2015</h3>
             <div class="line"></div>
-            <p class="about-heading-info">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur repudiandae vero, dolorum quis veritatis illo necessitatibus odit sit architecto inventore distinctio? Labore saepe possimus molestias ut facilis nam consequatur.
+            <p class="about-info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur repudiandae vero, dolorum quis veritatis illo necessitatibus odit sit architecto.
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita rem facilis iusto, et neque eveniet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eveniet.
             </p>
-            <p class="about-heading-contact">Please contact us at per Email for any further questions about the Business Marathon!
+            <p class="about-contact">Please contact us at per Email for any further questions about the Business Marathon!
             </p>
-            <a class="about-heading-email" href="#">info-test@gmail.com </a>
+            <a class="about-email" href="#">info-test@gmail.com </a>
 
         </header>
 
@@ -243,7 +242,7 @@
             <h3 class="about-marathon-title">CREATIVE COMMONS GLOBAL SUMMIT 2015</h3>
             <div class="line"></div>
             <p class="about-marathon-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga quia repudiandae possimus omnis placeat numquam, modi magni dicta aspernatur!</p>
-            <img class="about-marathon-img" src="image-link.jpg"
+            <img class="about-marathon-img" src="/images/about-main.jpg"
                 alt="Logo" />
         </section>
             
@@ -280,12 +279,13 @@
             </ul>
         </section>
             
-        <div class="ending">
-            <img class="logo" src="img/logo.png" alt="YIA" />
+        <div class="end">
+            <img class="logo" src="img/logo.png" alt="logo" />
             <h3 class="company-name">2022 © All rights reserved.</h3>
         </div>
-        </section>
-            <!-- end about -->
+    </section>
+    
+    <!-- end about -->
     
     <script src="./scripts/script.js"></script>
 </body>

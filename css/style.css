@@ -12,7 +12,8 @@ body {
   display: none;
 }
 
-.hamburger {
+.hamburger,
+.hamburger-about {
   color: #333;
   width: 50px;
   height: 50px;
@@ -229,6 +230,125 @@ body {
 }
 
 /* about */
+.about .nav {
+  display: none;
+}
+
+.head-about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url(/images/bg-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #ec5242;
+}
+
+.about-top {
+  font-size: 20px;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-size: 34px;
+  padding-top: 25px;
+}
+
+.about-info {
+  background-color: #fff;
+  border: 1px solid #e4f1f1;
+  font-size: 20px;
+  color: #333;
+  padding: 20px;
+}
+
+.about-contact {
+  font-size: 16px;
+  color: #333;
+}
+
+.about-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration-color: #ec5242;
+  text-underline-position: under;
+}
+
+.about-marathon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.about-marathon-title {
+  font-size: 28px;
+}
+
+.about-marathon-info {
+  font-size: 20px;
+}
+
+.about-marathon-img {
+  height: 50%;
+
+  /* height: 20rem; */
+}
+
+.about-summits {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  padding: 20px;
+  padding-bottom: 30px;
+  background-color: #e4f1f1;
+}
+
+.about-summits .about-summit-title {
+  font-size: 28px;
+}
+
+.about-summits .about-summit-info {
+  font-size: 16px;
+}
+
+.about-summits .about-summit-info-img1,
+.about-summits .about-summit-info-img2 {
+  background-size: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: #fff;
+}
+
+.about-summits .about-summit-info-img1 {
+  margin-bottom: 4rem;
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(/images/about1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-summits .about-summit-info-img2 {
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(/images/about2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* end about */
 
 /* partner */
 .partner {
@@ -254,7 +374,7 @@ body {
   list-style: none;
 }
 
-.ending {
+.end {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -264,6 +384,6 @@ body {
   padding: 10px 10px;
 }
 
-.ending .logo {
+.end .logo {
   width: 130px;
 }

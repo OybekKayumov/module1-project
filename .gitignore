@@ -21,5 +21,4 @@ node_modules
 # Ignore idea
 .idea
 
-indexMobileMenu.html
-styleMobileMenu.css
+about.html
