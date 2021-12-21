@@ -27,7 +27,7 @@ body {
   height: 100vh;
   padding: 150px 80px;
   position: fixed;
-  background-color: #555;
+  background-color: #fe432d;
   backdrop-filter: blur(4px);
 }
 
@@ -48,15 +48,15 @@ body {
 .prefer-menu .menu-prefer .link {
   display: flex;
   justify-content: center;
-  color: #e4f1f1;
+  color: #e9ecef;
   font-size: 26px;
   text-decoration: none;
-  border: #fff solid 1px;
-  padding: 12px;
+  border: #fff solid 2px;
+  padding: 10px;
 }
 
 .prefer-menu .menu-prefer .link:hover {
-  border: #ec5242 solid 1px;
+  border: #fff solid 2px;
   padding: 12px;
   transform: scale(1.3);
   transition-duration: 0.1s;
@@ -384,8 +384,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  font-size: 10px;
-  padding: 10px 10px;
+  font-size: 16px;
+  padding: 20px 20px;
 }
 
 .end .logo {
@@ -523,5 +523,116 @@ body {
     flex-wrap: wrap;
     gap: 18px;
     justify-content: center;
+  }
+
+  /* speakers */
+
+  .speakers .speakers-card .speaker {
+    width: 40%;
+    margin-right: 4.8rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .speakers .speakers-card .speaker-img {
+    height: 14.2rem;
+    width: 14.2rem;
+    box-shadow: -0.5rem -0.5rem #fe432d;
+  }
+
+  .speakers .speakers-card .speaker .speaker-text .speaker-job,
+  .speakers .speakers-card .speaker .speaker-text .speaker-info {
+    font-size: 1.6rem;
+  }
+
+  .speakers .more {
+    display: none;
+  }
+
+  .partner {
+    padding: 4.8rem 7.4rem;
+  }
+
+  .partner .first-logo {
+    width: 1rem;
+  }
+
+  .end {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 340px;
+    font-size: 20px;
+  }
+
+  .end .logo {
+    width: 60px;
+  }
+
+  .head-about {
+    background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.842)), url(/images/about-main.jpg);
+    background-size: 100%;
+    padding: 80px 100px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-top {
+    display: none;
+  }
+
+  .head-about .line {
+    display: flex;
+    background-color: #ec5242;
+    height: 4px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+
+  .head-about .about-p {
+    width: 70%;
+    font-size: 24px;
+    color: #333;
+    background-color: #e9ecef;
+  }
+
+  .head-about .about-contact {
+    margin-bottom: -20px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .about-marathon {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+  }
+
+  .about-marathon .about-marathon-info {
+    font-size: 20px;
+  }
+
+  .about-marathon-img {
+    padding: 60px;
+    width: 70%;
+    height: 650px;
+  }
+
+  .about-summits .about-summit-images {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+  }
+
+  .about-summits .about-summit-images .about-summit-info-img1 {
+    width: 30%;
+    font-size: 30px;
+  }
+
+  .about-summits .about-summit-images .about-summit-info-img2 {
+    width: 30%;
+    font-size: 30px;
   }
 }
