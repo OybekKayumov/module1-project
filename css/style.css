@@ -71,7 +71,7 @@ body {
   flex-direction: column;
   gap: 43px;
   padding: 32px;
-  background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.64)), url(/images/bg-main.jpg);
+  background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.65)), url(/images/bg-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -158,7 +158,7 @@ body {
 }
 
 .lecture-icon {
-  width: 30px;
+  width: 60px;
 }
 
 .lecture h2 {
@@ -342,7 +342,7 @@ body {
 }
 
 .about-summits .about-summit-info-img2 {
-  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(/images/about2.jpg);
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(/images/about3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -374,8 +374,8 @@ body {
   list-style: none;
 }
 
-.partner .partners-list .first-logo {
-  width: 40rem;
+.partner .partners-list .column {
+  float: left;
 }
 
 .end {
@@ -384,8 +384,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  font-size: 16px;
-  padding: 20px 20px;
+  font-size: 12px;
+  padding: 14px 14px;
 }
 
 .end .logo {
@@ -427,8 +427,7 @@ body {
   }
 
   .nav-bottom .logo {
-    height: 1rem;
-    margin-top: -19rem;
+    padding: 0;
   }
 
   .nav-bottom-list {
@@ -552,15 +551,15 @@ body {
     padding: 4.8rem 7.4rem;
   }
 
-  .partner .first-logo {
-    width: 1rem;
+  .partner .partners-list .column {
+    width: 100%;
   }
 
   .end {
     display: flex;
     justify-content: space-around;
-    padding: 30px 340px;
-    font-size: 20px;
+    padding: 20px 340px;
+    font-size: 14px;
   }
 
   .end .logo {
@@ -568,7 +567,7 @@ body {
   }
 
   .head-about {
-    background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.842)), url(/images/about-main.jpg);
+    background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.42)), url(/images/bg-main.jpg);
     background-size: 100%;
     padding: 80px 100px;
     display: flex;
