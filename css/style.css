@@ -418,6 +418,10 @@ body {
     text-decoration: none;
   }
 
+  .nav-top-list li {
+    list-style: none;
+  }
+
   .nav-bottom {
     display: flex;
     align-items: center;
