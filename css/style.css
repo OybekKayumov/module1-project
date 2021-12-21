@@ -365,13 +365,17 @@ body {
   font-size: 22px;
 }
 
-.partner-list {
+.partner .partners-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 30px;
   justify-content: center;
   list-style: none;
+}
+
+.partner .partners-list .first-logo {
+  width: 40rem;
 }
 
 .end {
@@ -386,4 +390,138 @@ body {
 
 .end .logo {
   width: 130px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger,
+  .hamburger-about {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-top-list {
+    display: flex;
+    gap: 40px;
+    padding: 6px;
+    padding-right: 200px;
+    font-size: 16px;
+    justify-content: flex-end;
+    background-color: #333;
+  }
+
+  .nav-top-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 10px;
+    padding-right: 180px;
+  }
+
+  .nav-bottom .logo {
+    height: 1rem;
+    margin-top: -19rem;
+  }
+
+  .nav-bottom-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 22px;
+    padding: 14px;
+    cursor: auto;
+  }
+
+  .nav-bottom-list .link {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .nav-bottom-list .link:hover {
+    color: #fe432d;
+  }
+
+  .nav-bottom-list .nav-list-button {
+    border: #fe432d solid 5px;
+    padding: 18px;
+  }
+
+  .main .nav {
+    display: flex;
+  }
+
+  .about .nav {
+    display: flex;
+  }
+
+  .head {
+    background-size: 100%;
+    padding-left: 180px;
+  }
+
+  .head-top {
+    font-size: 32px;
+  }
+
+  .head-main {
+    font-size: 54px;
+  }
+
+  .head-p {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .head-data {
+    font-size: 40px;
+  }
+
+  .head-place {
+    font-size: 24px;
+  }
+
+  .program {
+    padding: 60px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .cards .card .lecture {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards .card .card-p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .speakers .speakers-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+  }
 }
