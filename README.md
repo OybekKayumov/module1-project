@@ -3,9 +3,9 @@
 # 21st International Exhibition
 # Food, Ingredients and Food Technologies
 
-> Portfolio project in the Module-1 understand how to use a Figma design and use CSS to place elements in the page.
+> Exhibiting at UzFood is a unique opportunity to present your products to a wide audience of professionals, find new partners and customers among representatives of retail chains and wholesale businesses.
 
-![app-screenshot](./images/1-proj-mobile.png)
+![app-screenshot](./images/project.png)
 
 ## Link to the online version
 
