@@ -1,7 +1,7 @@
 // Hamburger Btn start //
 const cover = document.querySelector('.prefer-menu');
 const btnCloseMenu = document.querySelector('.exit-btn');
-const btnOpenMenu = document.querySelector('.hamburger')
+const btnOpenMenu = document.querySelector('.hamburger');
 const BtnOpenMenuAbout = document.querySelector('.hamburger-about');
 const options = document.querySelectorAll('.link');
 const hamburger = document.querySelectorAll('.open');
@@ -9,8 +9,8 @@ const openAbout = document.querySelector('.about-link');
 const menuOpenAbout = document.querySelector('.menu-open-about');
 const menuOpenHome = document.querySelector('.menu-open-home');
 const openProgram = document.querySelector('.program-link');
-const openMain = document.querySelector('.home-link')
-const openSponsor = document.querySelector('.partner-link')
+const openMain = document.querySelector('.home-link');
+const openSponsor = document.querySelector('.partner-link');
 const home = document.getElementById('home');
 const about = document.querySelector('.about');
 let number = 2;
@@ -46,11 +46,11 @@ openProgram.addEventListener('click', openHome);
 openMain.addEventListener('click', openHome);
 openSponsor.addEventListener('click', openHome);
 
-for (let i = 0; i < hamburger.length; i++) {
+for (let i = 0; i < hamburger.length; i += 1) {
   hamburger[i].addEventListener('click', openMenu);
 }
 
-for (let i = 0; i < options.length; i++) {
+for (let i = 0; i < options.length; i += 1) {
   options[i].addEventListener('click', closeMenu);
 }
 
