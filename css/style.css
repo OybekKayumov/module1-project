@@ -69,7 +69,7 @@ body {
   flex-direction: column;
   gap: 31px;
   padding: 32px;
-  background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.65)), url(/images/bg-main.jpg);
+  background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.65)), url(images/bg-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -118,7 +118,7 @@ body {
   background-color: #333;
   padding: 26px;
   padding-top: 30px;
-  background-image: linear-gradient(45deg, #0e0a0a, rgba(26, 21, 21, 0.842)), url(/images/bg-partner.jpg);
+  background-image: linear-gradient(45deg, #0e0a0a, rgba(26, 21, 21, 0.842)), url(images/bg-partner.jpg);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -292,7 +292,7 @@ body {
   gap: 30px;
   padding: 20px;
   padding-bottom: 30px;
-  background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url(/images/bg-main.jpg);
+  background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url(images/bg-main.jpg);
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -385,14 +385,14 @@ body {
 
 .about-summits .about-summit-info-img1 {
   margin-bottom: 4rem;
-  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(/images/about1.jpg);
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(images/about1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about-summits .about-summit-info-img2 {
-  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(/images/about3.jpg);
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(images/about3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -631,7 +631,7 @@ body {
   }
 
   .head-about {
-    background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.42)), url(/images/bg-main.jpg);
+    background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.42)), url(images/bg-main.jpg);
     background-size: 100%;
     padding: 80px 100px;
     display: flex;
