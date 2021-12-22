@@ -631,7 +631,7 @@ body {
   }
 
   .head-about {
-    background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.42)), url(./images/bg-main.jpg);
+    background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url("../images/bg-main.jpg");
     background-size: 100%;
     padding: 80px 100px;
     display: flex;
