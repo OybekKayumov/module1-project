@@ -70,8 +70,8 @@ body {
 .head {
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  padding: 32px;
+  gap: 22px;
+  padding: 30px;
   background-image: url("../images/main_big.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -83,16 +83,16 @@ body {
 }
 
 .head-top {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 22px;
 }
 
 .head-main {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: normal;
   font-style: normal;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 .head-p {
@@ -101,20 +101,20 @@ body {
   font-size: 14px;
   text-align: justify;
   line-height: 30px;
-  padding: 16px;
+  padding: 12px;
 }
 
 .head-data {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 24px;
   font-style: normal;
   color: #555;
 }
 
 .head-place {
   color: #555;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   padding-bottom: 28px;
@@ -303,9 +303,9 @@ body {
 .head-about {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-image: url("../images/mobile_intro_bg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -314,18 +314,18 @@ body {
 }
 
 .about-top {
-  font-size: 20px;
-  padding-top: 50px;
+  font-size: 16px;
+  padding-top: 30px;
   text-transform: uppercase;
 }
 
 .about-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   font-style: normal;
   font-weight: normal;
   line-height: 50px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .about-p {
@@ -333,7 +333,7 @@ body {
   border: 1px solid #e4f1f1;
   font-size: 20px;
   color: #333;
-  padding: 20px;
+  padding: 30px;
 }
 
 .about-contact {
@@ -346,7 +346,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #333;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration-color: #ec5242;
   text-underline-position: under;
