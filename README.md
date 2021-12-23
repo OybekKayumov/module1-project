@@ -23,7 +23,7 @@ This site was built using [GitHub Pages](https://oybekkayumov.github.io/module1-
 
 ## Presentation
 
-[Presentation video](https://www.loom.com/share/)
+[Presentation video](https://www.loom.com/share/d12cad4e54cb4208bff9777c529ddb20)
 
 ## Getting Started
 
