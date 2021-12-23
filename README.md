@@ -7,15 +7,23 @@
 
 ![app-screenshot](./images/project.png)
 
-## Link to the online version
-
-This site was built using [GitHub Pages](https://oybekkayumov.github.io/module1-project/)
-
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
+
+## Acknowledgments
+
+- To [Cindy Shin](https://www.behance.net/adagio07), since the whole website is based on her template.
+
+## Link to the online version
+
+This site was built using [GitHub Pages](https://oybekkayumov.github.io/module1-project/)
+
+## Presentation
+
+[Presentation video](https://www.loom.com/share/)
 
 ## Getting Started
 
@@ -35,7 +43,7 @@ to set this project up please run these commands:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/OybekKayumov/module1-project/issues).
 
 # Show your support
 
@@ -43,4 +51,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://www.mit.org/) licensed.
+This project is [MIT](./MIT.md) licensed.
