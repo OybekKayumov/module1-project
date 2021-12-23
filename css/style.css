@@ -699,9 +699,10 @@ body {
   }
 
   .head-about .about-title {
-    font-size: 46px;
+    font-size: 52px;
     font-weight: normal;
     font-style: normal;
+    line-height: 60px;
   }
 
   .head-about .about-p {
