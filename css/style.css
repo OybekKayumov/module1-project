@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -67,11 +73,13 @@ body {
 .head {
   display: flex;
   flex-direction: column;
-  gap: 31px;
+  gap: 28px;
   padding: 32px;
-  background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.65)), url("../images/bg-main.jpg");
+  background-image: url("../images/main_big.png");
   background-repeat: no-repeat;
   background-position: center;
+
+  /* background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.65)), url("../images/bg-main.jpg"); */
 }
 
 .head-top,
@@ -85,26 +93,31 @@ body {
 }
 
 .head-main {
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 40px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 60px;
 }
 
 .head-p {
   background-color: #f5f6f7;
   border: 1px solid #fff;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   line-height: 30px;
   padding: 16px;
 }
 
 .head-data {
-  font-size: 26px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  color: #555;
 }
 
 .head-place {
-  font-size: 22px;
+  color: #555;
+  font-size: 20px;
   font-weight: 600;
   font-style: normal;
   padding-bottom: 28px;
@@ -289,14 +302,16 @@ body {
 .head-about {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   padding: 20px;
   padding-bottom: 30px;
-  background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url("../images/bg-main.jpg");
+  background-image: url("../images/mobile_intro_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   color: #ec5242;
+
+  /* background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url("../images/bg-main.jpg"); */
 }
 
 .about-top {
@@ -306,7 +321,11 @@ body {
 }
 
 .about-title {
-  font-size: 34px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
   padding-top: 25px;
 }
 
@@ -514,8 +533,17 @@ body {
   }
 
   .head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    background-image: url("../images/main_big.png");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
     padding-left: 180px;
+
+    /* background-image: linear-gradient(45deg, white, rgba(228, 226, 226, 0.65)), url("../images/bg-main.jpg"); */
   }
 
   .head-top {
@@ -527,21 +555,29 @@ body {
   }
 
   .head-p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 40px;
-    width: 80%;
+    width: 50%;
   }
 
   .head-data {
+    color: #555;
     font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
   }
 
   .head-place {
+    color: #555;
     font-size: 24px;
   }
 
   .program {
     padding: 60px;
+  }
+
+  .program .program-title {
+    font-size: 42px;
   }
 
   .cards {
@@ -569,15 +605,19 @@ body {
   }
 
   .card-button-desk {
-    display: none;
+    display: flex;
+    font-size: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 100px;
+    margin: 10px auto;
   }
 
   .card-button-mob {
-    background-color: #ec5242;
-    font-size: 32px;
-    text-align: center;
-    padding: 20px 100px;
-    margin: 10px auto;
+    display: none;
   }
 
   .speakers .speakers-card {
@@ -631,13 +671,18 @@ body {
   }
 
   .head-about {
-    background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url("../images/bg-main.jpg");
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/main_big.png");
     background-size: 100%;
     padding: 80px 100px;
-    display: flex;
     gap: 50px;
     text-align: center;
     align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url("../images/bg-main.jpg"); */
   }
 
   .about-top {
@@ -653,8 +698,14 @@ body {
     margin-top: -20px;
   }
 
+  .head-about .about-title {
+    font-size: 46px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
   .head-about .about-p {
-    width: 70%;
+    width: 60%;
     font-size: 22px;
     color: #333;
     background-color: #e9ecef;
@@ -663,7 +714,7 @@ body {
   }
 
   .head-about .about-contact {
-    margin-bottom: -20px;
+    margin-bottom: -8px;
     font-size: 18px;
     color: #333;
   }
