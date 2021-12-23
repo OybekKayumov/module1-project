@@ -128,7 +128,6 @@ body {
   background-color: #333;
   padding: 26px;
   padding-top: 30px;
-  /* background-image: linear-gradient(45deg, #0e0a0a, rgba(26, 21, 21, 0.842)), url("../images/bg-partner.jpg"); */
   background-image: url("../images/program-card.jpg");
   background-repeat: repeat;
   background-size: cover;
