@@ -673,7 +673,7 @@ body {
   .head-about {
     display: flex;
     flex-direction: column;
-    background-image: url("../images/main_big.png");
+    background-image: url("../images/about_bg.png");
     background-size: 100%;
     padding: 80px 100px;
     gap: 50px;
@@ -705,10 +705,10 @@ body {
   }
 
   .head-about .about-p {
-    width: 60%;
+    width: 70%;
     font-size: 22px;
     color: #333;
-    background-color: #e9ecef;
+    background-color: #fff;
     text-align: left;
     line-height: 30px;
   }
