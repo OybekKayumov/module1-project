@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  color: #272a31;
 }
 
 .hidden {
@@ -17,7 +18,6 @@ body {
 
 .hamburger,
 .hamburger-about {
-  color: #333;
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -28,7 +28,7 @@ body {
   height: 100vh;
   padding: 150px 80px;
   position: fixed;
-  background-color: #fe432d;
+  background-color: #ec5242;
   backdrop-filter: blur(4px);
 }
 
@@ -109,11 +109,9 @@ body {
   font-weight: 200;
   font-size: 24px;
   font-style: normal;
-  color: #555;
 }
 
 .head-place {
-  color: #555;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
@@ -125,7 +123,7 @@ body {
   flex-direction: column;
   gap: 12px;
   color: #fff;
-  background-color: #333;
+  background-color: #272a31;
   padding: 26px;
   padding-top: 30px;
   background-image: url("../images/program-card.jpg");
@@ -161,7 +159,7 @@ body {
   margin: 10px 10px;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: #444;
 }
 
 .lecture {
@@ -220,7 +218,7 @@ body {
 
 .speakers .line {
   display: flex;
-  background-color: #f03e3e;
+  background-color: #ec5242;
   height: 0.2rem;
   width: 8rem;
   margin: 0 auto;
@@ -310,13 +308,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  color: #ec5242;
 }
 
 .about-top {
   font-size: 16px;
   padding-top: 30px;
   text-transform: uppercase;
+  color: #ec5242;
 }
 
 .about-title {
@@ -326,26 +324,25 @@ body {
   font-weight: normal;
   line-height: 50px;
   padding-top: 20px;
+  color: #ec5242;
 }
 
 .about-p {
   background-color: #fff;
   border: 1px solid #e4f1f1;
   font-size: 20px;
-  color: #333;
   padding: 30px;
 }
 
 .about-contact {
   font-size: 16px;
-  color: #333;
 }
 
 .about-email {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #333;
+  color: #272a31;
   font-size: 20px;
   font-weight: 600;
   text-decoration-color: #ec5242;
@@ -421,7 +418,7 @@ body {
   flex-direction: column;
   gap: 20px;
   padding: 30px;
-  background-color: #333;
+  background-color: #272a31;
   color: #fff;
   text-align: center;
 }
@@ -484,7 +481,7 @@ body {
     padding-right: 200px;
     font-size: 15px;
     justify-content: flex-end;
-    background-color: #333;
+    background-color: #272a31;
   }
 
   .nav-top-list a {
@@ -520,15 +517,15 @@ body {
 
   .nav-bottom-list .link {
     text-decoration: none;
-    color: #333;
+    color: #272a31;
   }
 
   .nav-bottom-list .link:hover {
-    color: #fe432d;
+    color: #ec5242;
   }
 
   .nav-bottom-list .nav-list-button {
-    border: #fe432d solid 4px;
+    border: #ec5242 solid 4px;
     padding: 16px;
   }
 
@@ -567,14 +564,14 @@ body {
   }
 
   .head-data {
-    color: #555;
+    color: #272a31;
     font-size: 40px;
     font-weight: 500;
     font-style: normal;
   }
 
   .head-place {
-    color: #555;
+    color: #272a31;
     font-size: 24px;
   }
 
@@ -643,7 +640,7 @@ body {
   .speakers .speakers-card .speaker-img {
     height: 7rem;
     width: 7rem;
-    box-shadow: -5px -5px #fe432d;
+    box-shadow: -5px -5px #ec5242;
   }
 
   .speakers .speakers-card .speaker .speaker-text .speaker-job,
@@ -660,7 +657,7 @@ body {
     flex-direction: column;
     gap: 20px;
     padding: 60px 0;
-    background-color: #333;
+    background-color: #272a31;
     color: #fff;
     text-align: center;
   }
@@ -731,7 +728,7 @@ body {
   .head-about .about-p {
     width: 70%;
     font-size: 22px;
-    color: #333;
+    color: #272a31;
     background-color: #fff;
     text-align: left;
     line-height: 30px;
@@ -740,7 +737,7 @@ body {
   .head-about .about-contact {
     margin-bottom: -8px;
     font-size: 18px;
-    color: #333;
+    color: #272a31;
   }
 
   .about-marathon {
@@ -786,7 +783,7 @@ body {
 
   .end-about {
     color: #fff;
-    background-color: #333;
+    background-color: #272a31;
     padding: 50px 30px;
   }
 }
