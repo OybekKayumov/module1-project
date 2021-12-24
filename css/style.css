@@ -1,0 +1,789 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.cdnfonts.com/css/Lato');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.hidden {
+  display: none;
+}
+
+.hamburger,
+.hamburger-about {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.prefer-menu {
+  width: 100%;
+  height: 100vh;
+  padding: 150px 80px;
+  position: fixed;
+  background-color: #ec5242;
+  backdrop-filter: blur(4px);
+}
+
+.prefer-menu .exit-btn {
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  color: #fff;
+}
+
+.prefer-menu .menu-prefer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.prefer-menu .menu-prefer .link {
+  display: flex;
+  justify-content: center;
+  color: #e9ecef;
+  font-size: 26px;
+  text-decoration: none;
+  border: #fff solid 2px;
+  padding: 10px;
+}
+
+.prefer-menu .menu-prefer .link:hover {
+  border: #fff solid 2px;
+  padding: 12px;
+  transform: scale(1.3);
+  transition-duration: 0.1s;
+}
+
+.main .nav {
+  display: none;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 30px;
+  background-image: url("../images/main_big.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.head-top,
+.head-main {
+  color: #ec5242;
+}
+
+.head-top {
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.head-main {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 34px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 50px;
+}
+
+.head-p {
+  background-color: #f5f6f7;
+  border: 1px solid #fff;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 30px;
+  padding: 12px;
+}
+
+.head-data {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.head-place {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 28px;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #fff;
+  background-color: #272a31;
+  padding: 26px;
+  padding-top: 30px;
+  background-image: url("../images/program-card.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.program-title {
+  font-size: 28px;
+  text-align: center;
+  color: #e9ecef;
+}
+
+.program .red-line {
+  background-color: #ec5242;
+  width: 100px;
+  height: 0.2rem;
+  padding-top: 0;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #e9ecef;
+  padding: 5px;
+  margin: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+}
+
+.lecture {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ec5242;
+}
+
+.lecture-icon {
+  width: 60px;
+}
+
+.lecture h2 {
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.card-p {
+  font-size: 18px;
+}
+
+.card-button-desk {
+  display: none;
+}
+
+.card-button-mob {
+  background-color: #ec5242;
+  font-size: 22px;
+  text-align: center;
+  padding: 12px 24px;
+  margin: 20px auto;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ece7e7;
+  padding: 20px;
+}
+
+.speakers-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.speakers .red-line {
+  background-color: #ec5242;
+  width: 100px;
+  height: 4px;
+  margin: 20px auto;
+}
+
+.speakers .line {
+  display: flex;
+  background-color: #ec5242;
+  height: 0.2rem;
+  width: 8rem;
+  margin: 0 auto;
+}
+
+.speakers-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speakers .speaker {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.speakers .speaker-img {
+  height: 5rem;
+  width: 5rem;
+  box-shadow: -5px -5px #ec5242;
+}
+
+.speakers .speaker-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.speakers .speaker-text .line {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  background-color: #e9ecef;
+  height: 0.2rem;
+  width: 4rem;
+}
+
+.speakers .speaker-info {
+  font-size: 16px;
+}
+
+.speakers .speaker-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.speakers .speaker-job {
+  font-size: 16px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.more,
+.less {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  width: 100%;
+}
+
+.more .down-arrow,
+.less .down-arrow {
+  width: 30px;
+  height: 20px;
+  color: #ec5242;
+}
+
+.partner,
+.company {
+  display: none;
+}
+
+.about .nav {
+  display: none;
+}
+
+.head-about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-image: url("../images/mobile_intro_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.about-top {
+  font-size: 16px;
+  padding-top: 30px;
+  text-transform: uppercase;
+  color: #ec5242;
+}
+
+.about-title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
+  padding-top: 20px;
+  color: #ec5242;
+}
+
+.about-p {
+  background-color: #fff;
+  border: 1px solid #e4f1f1;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.about-contact {
+  font-size: 16px;
+}
+
+.about-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #272a31;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration-color: #ec5242;
+  text-underline-position: under;
+}
+
+.about-marathon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.about-marathon-title {
+  font-size: 28px;
+}
+
+.about-marathon-info {
+  font-size: 20px;
+}
+
+.about-marathon-img {
+  height: 50%;
+}
+
+.about-summits {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  padding: 20px;
+  padding-bottom: 30px;
+  background-color: #e4f1f1;
+}
+
+.about-summits .about-summit-title {
+  font-size: 28px;
+}
+
+.about-summits .about-summit-info {
+  font-size: 16px;
+}
+
+.about-summits .about-summit-info-img1,
+.about-summits .about-summit-info-img2 {
+  background-size: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: #fff;
+}
+
+.about-summits .about-summit-info-img1 {
+  margin-bottom: 4rem;
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url("../images/about1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-summits .about-summit-info-img2 {
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(../images/about3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partner-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  background-color: #272a31;
+  color: #fff;
+  text-align: center;
+}
+
+.partner-about .partner-title {
+  font-size: 22px;
+  color: #e9ecef;
+}
+
+.partner-about .partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  list-style: none;
+}
+
+.partner-about .partners-list .column {
+  float: left;
+}
+
+.partner {
+  display: none;
+}
+
+.end-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 12px;
+  padding: 14px 14px;
+}
+
+.end-about .logo {
+  width: 130px;
+}
+
+.end {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger,
+  .hamburger-about {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-top-list {
+    display: flex;
+    gap: 40px;
+    padding: 6px;
+    padding-right: 200px;
+    font-size: 15px;
+    justify-content: flex-end;
+    background-color: #272a31;
+  }
+
+  .nav-top-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-top-list li {
+    list-style: none;
+  }
+
+  .nav-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    padding-right: 180px;
+  }
+
+  .nav-bottom .logo {
+    padding-left: 160px;
+  }
+
+  .nav-bottom-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+    padding: 14px;
+    cursor: auto;
+  }
+
+  .nav-bottom-list .link {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .nav-bottom-list .link:hover {
+    color: #ec5242;
+  }
+
+  .nav-bottom-list .nav-list-button {
+    border: #ec5242 solid 4px;
+    padding: 16px;
+  }
+
+  .main .nav {
+    display: flex;
+  }
+
+  .about .nav {
+    display: flex;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    background-image: url("../images/main_big.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 180px;
+  }
+
+  .head-top {
+    font-size: 32px;
+  }
+
+  .head-main {
+    font-size: 54px;
+  }
+
+  .head-p {
+    font-size: 18px;
+    line-height: 40px;
+    width: 50%;
+  }
+
+  .head-data {
+    color: #272a31;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .head-place {
+    color: #272a31;
+    font-size: 24px;
+  }
+
+  .program {
+    padding: 60px;
+  }
+
+  .program .program-title {
+    font-size: 42px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .cards .card .lecture {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards .card .card-p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card-button-desk {
+    display: flex;
+    font-size: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 100px;
+    margin: 10px auto;
+  }
+
+  .card-button-mob {
+    display: none;
+  }
+
+  .speakers .speakers-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .speakers .speakers-card .speaker {
+    width: 40%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .speakers .speakers-card .speaker-img {
+    height: 7rem;
+    width: 7rem;
+    box-shadow: -5px -5px #ec5242;
+  }
+
+  .speakers .speakers-card .speaker .speaker-text .speaker-job,
+  .speakers .speakers-card .speaker .speaker-text .speaker-info {
+    font-size: 20px;
+  }
+
+  .speakers .more {
+    display: none;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0;
+    background-color: #272a31;
+    color: #fff;
+    text-align: center;
+  }
+
+  .partner .partner-title {
+    font-size: 22px;
+    color: #e9ecef;
+  }
+
+  .partner .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .partner .partners-list .column {
+    float: left;
+    width: 100%;
+  }
+
+  .end {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 340px;
+    font-size: 14px;
+  }
+
+  .end .logo {
+    width: 60px;
+  }
+
+  .head-about {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/about_bg.png");
+    background-size: contain;
+    padding: 80px 100px;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .about-top {
+    display: none;
+  }
+
+  .head-about .line {
+    display: flex;
+    background-color: #ec5242;
+    height: 4px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+
+  .head-about .about-title {
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 60px;
+  }
+
+  .head-about .about-p {
+    width: 70%;
+    font-size: 22px;
+    color: #272a31;
+    background-color: #fff;
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .head-about .about-contact {
+    margin-bottom: -8px;
+    font-size: 18px;
+    color: #272a31;
+  }
+
+  .about-marathon {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+  }
+
+  .about-marathon .about-marathon-info {
+    font-size: 20px;
+  }
+
+  .about-marathon-img {
+    padding: 60px;
+    width: 70%;
+    height: 650px;
+  }
+
+  .about-summits {
+    background-color: #f5f6f7;
+  }
+
+  .about-summits .about-summit-images {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+  }
+
+  .about-summits .about-summit-images .about-summit-info-img1 {
+    width: 30%;
+    font-size: 30px;
+  }
+
+  .about-summits .about-summit-images .about-summit-info-img2 {
+    width: 30%;
+    font-size: 30px;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .end-about {
+    color: #fff;
+    background-color: #272a31;
+    padding: 50px 30px;
+  }
+}
