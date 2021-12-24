@@ -416,7 +416,7 @@ body {
   background-size: cover;
 }
 
-.partner {
+.partner-about {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -426,12 +426,12 @@ body {
   text-align: center;
 }
 
-.partner .partner-title {
+.partner-about .partner-title {
   font-size: 22px;
   color: #e9ecef;
 }
 
-.partner .partners-list {
+.partner-about .partners-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -440,11 +440,15 @@ body {
   list-style: none;
 }
 
-.partner .partners-list .column {
+.partner-about .partners-list .column {
   float: left;
 }
 
-.end {
+.partner {
+  display: none;
+}
+
+.end-about {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -454,8 +458,12 @@ body {
   padding: 14px 14px;
 }
 
-.end .logo {
+.end-about .logo {
   width: 130px;
+}
+
+.end {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -581,7 +589,7 @@ body {
   .cards {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     padding: 30px;
   }
@@ -648,10 +656,31 @@ body {
   }
 
   .partner {
-    padding: 4.8rem 7.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  .partner .partner-title {
+    font-size: 22px;
+    color: #e9ecef;
+  }
+
+  .partner .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
   }
 
   .partner .partners-list .column {
+    float: left;
     width: 100%;
   }
 
@@ -749,5 +778,15 @@ body {
   .about-summits .about-summit-images .about-summit-info-img2 {
     width: 30%;
     font-size: 30px;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .end-about {
+    color: #fff;
+    background-color: #333;
+    padding: 50px 30px;
   }
 }
