@@ -595,6 +595,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 24px;
+    width: 500px !important;
+    height: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .cards .card:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
   }
 
   .cards .card .lecture {
